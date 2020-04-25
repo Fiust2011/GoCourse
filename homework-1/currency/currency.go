@@ -9,5 +9,5 @@ func main() {
 	fmt.Println("Привет. Это программа для конвертации рублей в доллары\nКакую сумму в рублях нужно конвертировать в доллары?")
 	fmt.Scanln(&sumRub)
 	sumDoll = sumRub / courseDoll
-	fmt.Printf("Результат: %x \n", sumDoll)
+	fmt.Printf("Результат = %.2f\n", sumDoll)
 }
