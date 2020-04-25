@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	var courseDoll = 74
-	var sumRub int
-	var sumDoll int
+	var courseDoll float64 = 74
+	var sumRub float64
+	var sumDoll float64
 	fmt.Println("Привет. Это программа для конвертации рублей в доллары\nКакую сумму в рублях нужно конвертировать в доллары?")
 	fmt.Scanln(&sumRub)
 	sumDoll = sumRub / courseDoll
